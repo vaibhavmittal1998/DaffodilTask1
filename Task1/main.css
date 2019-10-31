@@ -8,7 +8,7 @@ body{
 
 }
 .innerheader{
-	width: 80%;
+	width: 1100px;
 	height: 100px;
 	margin: 0 auto;
 	position: relative;
@@ -30,7 +30,6 @@ body{
 .cart{
 	clear: left;
 	float: right;
-	position: absolute;
 	bottom: -39px;
 	left: 900px;
 }
@@ -49,21 +48,79 @@ body{
 .container{
 	background-image: url(background.jpg);
 	height: 800px;
-	width: 100%;
-	z-index: -1;
+	width: 1349px;
 	position: absolute;
+	z-index: -1;
 }
 
 .innercontainer{
-	width: 80%;
+	width: 1100px;
 	margin: 0 auto;
+	position: relative;
 }
 .upperside{
 	width: 100%;
-	height: 250px;
 	margin-top: 80px;
-
+}
+.lowerside{
+	position: relative;
+	width: 1100px;
+	margin-top: 30px;
+	background-color: black;
+	height: 630px;
+}
+.leftside{
+	float: left;
+	position: relative;
+	width: 250px;
+	background-color: white; 
+	margin-left: 30px;
+	margin-top: 30px;
+	border: 0px;
+	border-radius: 20px; 
+	height: 300px
+}
+.rightside{
+	float: left;
+	position: relative;
+	width: 700px;
+	background-color: red;
+	margin-top: -300px;
+	margin-left: 350px;
+	
+}
+.product{
+	height: 240px;
+	width: 150px;
+	background-color: blue;
+	margin: 20px 38px;
+	float: left;
+	border:0;
+	border-radius: 10px;
+	position: relative;
 }
 
+.rec-blue{
+	width: 100%;
+}
+.package{
+	width: 60px;
+	height: 100px;
+	margin-left: 44px;
+	margin-top: 10px;
+}
+.button2{
+	margin-left: 22px;
+	margin-top: 5px;
+}
+.button1{
+	margin-left: 22px;
+}
+.rec-blue-text{
+	position: relative;
+	top: -245px;
+	width: 100%;
+	text-align: center;
+}
 
 
